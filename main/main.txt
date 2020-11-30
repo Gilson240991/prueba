@@ -3,6 +3,43 @@ class main{
 public static void main(String args[]){
 
 System.out.println("Hola mundo");
+
+// estoy agregando un comentario,
+
+}
+
+Integer mostrarNumero(String x){
+
+return Integer.parseInt(x);
+}
+
+Integer sumarNumeros(String[] x){
+Integer suma = 0;
+
+for(String num : x){
+
+suma+= Integer.parseInt(x);		
+}
+
+return suma;
+
+}
+
+Integer mostrarNumero(String x){
+
+return Integer.parseInt(x);
+}
+
+Integer sumarNumeros(String[] x){
+Integer suma = 0;
+
+for(String num : x){
+
+suma+= Integer.parseInt(x);		
+}
+
+return suma;
+
 }
 
 }
