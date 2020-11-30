@@ -23,7 +23,7 @@ suma+= Integer.parseInt(x);
 
 return suma;
 
-}
+}s
 
 Integer mostrarNumero(String x){
 
